@@ -24,7 +24,7 @@ const next = () => {
 
 <template>
   <div>
-    <h1 style="text-align: center">Below is a carousel developed using vanilla JS & SCSS</h1>
+    <h1 style="text-align: center">Below is a slider developed using vanilla JS & SCSS</h1>
     <div class="carousel">
       <div class="carousel-wrapper" :style="wrapperStyle">
         <div class="carousel-item" v-for="(image, index) in images" :key="index">
@@ -60,6 +60,7 @@ const next = () => {
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
+        border-radius: 8px;
       }
     }
   }
