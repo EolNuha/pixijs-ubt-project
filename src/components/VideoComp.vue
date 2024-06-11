@@ -20,12 +20,12 @@ import javascript from '@/assets/javascript.mp4'
 .video {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   div {
     flex: 1 1 auto;
   }
   video {
-    width: 400px;
+    width: 640px;
     border-radius: 8px;
   }
 }
@@ -34,7 +34,7 @@ import javascript from '@/assets/javascript.mp4'
   .video {
     flex-direction: column;
     video {
-      width: 300px;
+      width: 100%;
     }
   }
 }

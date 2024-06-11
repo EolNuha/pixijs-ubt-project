@@ -1,5 +1,5 @@
 <script setup>
-// import PixiJs from '../components/PixiJs.vue'
+import PixiJs from '../components/PixiJs.vue'
 import Header from '../components/HeaderComp.vue'
 import ImageSlider from '../components/ImageSlider.vue'
 import VideoComp from '../components/VideoComp.vue'
@@ -10,7 +10,7 @@ import VideoComp from '../components/VideoComp.vue'
   <div class="main">
     <ImageSlider />
     <VideoComp />
-    <!-- <PixiJs /> -->
+    <PixiJs />
   </div>
 </template>
 
