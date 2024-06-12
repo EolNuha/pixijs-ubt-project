@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flappy Bird Game</title>
-    <script type="module" crossorigin src="/pixijs-ubt-project/assets/index-1b2901f1.js"></script>
-    <link rel="stylesheet" href="/pixijs-ubt-project/assets/index-a9fcfc6d.css" />
+    <script type="module" crossorigin src="/assets/index-1b2901f1.js"></script>
+    <link rel="stylesheet" href="/assets/index-a9fcfc6d.css" />
   </head>
   <body>
     <div class="header">
@@ -42,12 +42,12 @@
       </div>
     </div>
     <div style="display: flex; justify-content: center">
-      <div id="flappy"></div>
+      <div id="app"></div>
     </div>
 
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const appDiv = document.getElementById('flappy')
+        const appDiv = document.getElementById('app')
         const canvas = document.querySelector('canvas')
 
         appDiv.appendChild(canvas)
