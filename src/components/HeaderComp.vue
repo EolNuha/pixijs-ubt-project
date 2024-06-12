@@ -2,6 +2,12 @@
 
 <template>
   <div class="header">
+    <div class="navigation">
+      <a href="/">Home</a>
+      <a href="/flappy-bird-game" style="margin-left: auto">Flappy Bird</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#footer">About Us</a>
+    </div>
     <div class="inner">
       <div>
         <h1>Pixi.js Project 👋</h1>
@@ -110,6 +116,18 @@
   .waves {
     height: 40px;
     min-height: 40px;
+  }
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0;
+  a {
+    color: white;
+    text-decoration: none;
   }
 }
 </style>
