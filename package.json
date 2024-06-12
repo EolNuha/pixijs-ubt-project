@@ -12,6 +12,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "pinia": "^2.1.7",
     "pixi.js": "^8.1.6",
     "vue": "^3.4.21",
