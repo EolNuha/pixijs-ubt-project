@@ -1,10 +1,11 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="header">
     <div class="navigation">
       <a href="/">Home</a>
-      <a href="/flappy-bird-game" style="margin-left: auto">Flappy Bird</a>
+      <a :href="`/flappy-bird-game.html`" style="margin-left: auto">Flappy Bird</a>
       <a href="#contact">Contact Us</a>
       <a href="#footer">About Us</a>
     </div>
